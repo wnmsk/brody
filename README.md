@@ -36,6 +36,13 @@ signs it, and appends a `COSE_Sign1_Tagged` authentication block. The `cose`, `e
 and `keys` modules are also public for callers that need finer-grained control over
 individual steps of the pipeline.
 
+A runnable version of the library usage above, signing a synthetic envelope in memory, is in
+[examples/sign_envelope.rs](examples/sign_envelope.rs):
+
+```
+cargo run --example sign_envelope
+```
+
 ## Testing
 
 Run the full automated test suite (unit tests plus an end-to-end CLI integration test):

@@ -22,6 +22,7 @@ All notable changes to `brody` are documented in this file.
   `load_signer`, `run`).
 - `repository` field in `Cargo.toml`, required for crates.io publishing.
 - Change package name to `brody`
+- `examples/sign_envelope.rs`: runnable library usage example (`cargo run --example sign_envelope`).
 
 ### Fixed
 
